@@ -1,0 +1,258 @@
+/* Importa fontes para o site do www.googlefonts.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*RESET*/
+* {margin: 0; padding: 0;box-sizing: border-box}
+
+/* CORES */
+.branco{color:#fff}
+.bg-amarelo{background-color: rgb(202, 199, 9)}
+.amarelo{color:#e0d24f}
+.bg-azul{background-color: #46bbe9}
+.preto{color: #222}
+.bg-preto{background-color: rgba(34, 34, 34, 0.7)}
+.verde{color: #31c2b6}
+.bg-salmao{background-color: #f08080}
+
+
+/* Corpo do site */
+body{
+    font-family: 'Open Sans', sans-serif, verdana;
+    font-size: 14pt;
+}
+/* Cabeçalho */
+header{
+    background-image: url(../img/melhores-jogos-fliperama-730x400.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Menu */
+nav{
+    min-height: 60px;
+    width: 100%;
+    top:0;
+}
+/* Padrões */
+.clearfix{
+    content: "";
+    clear: both;
+    overflow: auto;
+   display: table;
+}
+
+.container {
+    width: 100%;
+    size: cover;
+    padding:1;
+
+}
+.esquerda{float: left}
+.direita{float: right}
+.centro{text-align: center; margin: auto}
+nav{
+    min-height: 60px;
+    width: 100%;
+    top:0;
+}
+
+nav ul li{
+    display: inline-block; 
+    line-height: 60px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 30px;
+}
+
+nav ul li a:hover{
+    background-color: #fff;
+    color: #dad051;
+}
+
+
+/* Conteudo */
+
+
+#produtos div{
+    width: 33.333%;
+    min-width: 320px;
+    float: left;
+    height: 400px;
+}
+#produtos img{
+    width: 100%;
+}
+#produtos p{
+    border: 100px;
+    top: 20px;
+    padding-top: 30px;
+
+}
+
+.formulario input, .formulario select, .formulario textarea{
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formulario button{
+    padding: 5px 20px;
+    margin-left: 10px;
+    float: right;
+}
+
+.formulario input[type="radio"]{
+  display: inline-block;
+  width: 50px;
+}
+
+/* Login */
+.login{
+    font-size: 12pt;
+}
+#topo img{
+    height: 60px;
+    margin: 10px 40px;
+}
+.login h2, .login p{
+   text-align: center
+}
+
+.login form{
+   width: 40%;
+   min-width: 320px;
+   margin: auto;
+}
+
+.login input, .login button, .login p{
+    padding: 15px;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+}
+.login p{
+    border: none
+}
+
+/* Cadastro */
+.cadastro input[type="radio"], .cadastro input[type="checkbox"]{
+    display: inline-block;
+    width: 70px;
+}
+
+.meio{
+    width: 50%;
+    float: left;
+}
+
+label{
+    display: block;
+}
+
+.material-icons{
+    position: relative;
+    top: 5px;
+}
+.slide{
+    background-image: url(../img/Dncn5MbXsAAJCCO.jpg);
+    height: 100%;
+    min-height: 600px;
+    padding-top: 200px;
+    width: 100%;
+    background-size: cover;
+
+}
+.slide p{
+    width: 100%;
+    min-width: 320px;
+    max-width: 600px;
+    padding: 30px;
+    font-size: 16pt;
+    float: right;
+    margin: 210px 30px 0 0;
+}
+.social{
+    padding: 30px 0;
+}
+.margem {
+    padding: 30px;
+}
+.logotipomarca{
+    width: 5%;
+    padding-top: 10px;
+}
+
+footer{
+    width: 100%;
+    padding: 40px 0;
+    }
+    
+footer div{
+    width: 25%;
+    min-width: 320px;
+    float: left;
+    }
+    
+footer .social img{
+    width: 50px;
+    }
+    
+footer .atalhos a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+/* Clientes */
+#comentarios, .texto{
+    width: 70%;
+    min-width: 260px;
+    float: left
+}
+
+#propaganda2, .foto{
+    width: 30%;
+    min-width: 260px;
+    float: left
+}
+ 
+.texto, .foto, #propaganda2 img{ 
+    padding: 40px;
+}
+
+.foto img{
+    border-radius: 50%; 
+}
+
+.foto {
+    border-right: 2px solid #222;
+}
+
+.foto img, #propaganda2 img{
+    width: 100%;
+}
+
+.texto h2, .texto p{
+    padding: 10px 0;
+}
+
+.social{
+
+    padding: 30px 0;
+    height: 200px;
+    padding-left: 20px;
+}
+.div{
+    width: 33.333%;
+    min-width: 320px;
+    float: left;
+    height: 400px;
+}
